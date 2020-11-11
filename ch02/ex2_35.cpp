@@ -8,6 +8,8 @@ int main() {
   auto *p = &i;
   const auto j2 = i, &k2 = i;
 
+
+  //
   std::cout << "i  is " << typeid(i).name() << "\n";
   std::cout << "j  is " << typeid(j).name() << "\n";
   std::cout << "k  is " << typeid(k).name() << "\n";
